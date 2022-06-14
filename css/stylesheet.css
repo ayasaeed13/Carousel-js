@@ -1,0 +1,55 @@
+.item img {
+    height:250px;
+    cursor: pointer;
+}
+#lightslidercontainer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+}
+#lightitem{
+    width: 45%;
+    height:400px;
+    background-image: url(imgs/one.jpg);
+    background-size: cover;
+
+}
+svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
+    font-size: 20px;
+    color: #fff;
+}
+
+#lightitem .iconcontent{
+    width: 40px;
+    height: 40px;
+    background-color: #00000094;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#lightitem .closeicon{
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #00000094;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.small{
+    color: blue;
+    font-size: 20px;
+}
+.item img {
+    border-radius: 20px;
+}
+.item img:hover{
+    transform: scale(1.05);
+}
